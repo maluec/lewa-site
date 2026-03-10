@@ -23,16 +23,17 @@ body {
     overflow-x: hidden;
 }
 
+/* Logo im Hintergrund
 body::before {
     content: "";
     position: fixed;
     inset: 2rem clamp(2rem, 8vw, 8rem);
     background: url("images/logo.svg") center center / contain no-repeat;
     opacity: 0.04;
-    /* filter: blur(6px); */
     pointer-events: none;
     z-index: 0;
 }
+*/
 
 h1,
 h2,
@@ -78,12 +79,12 @@ footer,
 
 .photo {
     display: block;
-    width: 140px;
+    width: 220px;
     max-width: 30%;
     height: auto;
     margin: 0 auto 16px auto;
     border-radius: 2px;
-    box-shadow: inset 0px 0px 31px 4px #101214;
+    box-shadow: inset 0px 0px 31px 25px #101214;
 }
 
 .section-1 h2 {
