@@ -168,6 +168,14 @@ footer {
     font-size: 0.95rem;
 }
 
+.footer-logo {
+    display: block;
+    width: 36px;
+    height: auto;
+    margin: 0 auto 0.75rem auto;
+    opacity: 0.9;
+}
+
 footer a {
     margin-left: 1rem;
 }
