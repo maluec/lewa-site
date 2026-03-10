@@ -29,14 +29,14 @@ body::before {
     inset: 2rem clamp(2rem, 8vw, 8rem);
     background: url("images/logo.svg") center center / contain no-repeat;
     opacity: 0.06;
-    filter: blur(6px);
+    /* filter: blur(6px); */
     pointer-events: none;
     z-index: 0;
 }
 
 h1,
 h2 {
-    color: #67A969
+    color: #fff
 }
 
 h1,
@@ -47,7 +47,7 @@ p {
 }
 
 h3 {
-    color: #7567A8
+    color: #67A969
 }
 
 a {
