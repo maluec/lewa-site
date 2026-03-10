@@ -80,14 +80,30 @@ footer,
     text-align: center;
 }
 
-.photo {
+.photo-frame {
+    position: relative;
     display: block;
     width: 220px;
     max-width: 30%;
-    height: auto;
     margin: 0 auto 16px auto;
     border-radius: 2px;
-    box-shadow: inset 0px 0px 31px 25px #101214;
+    overflow: hidden;
+}
+
+.photo {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
+}
+
+.photo-frame::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    box-shadow: inset 0 0 31px 25px #101214;
+    pointer-events: none;
+    border-radius: 2px;
 }
 
 .section-1 h2 {
