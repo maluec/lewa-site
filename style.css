@@ -30,12 +30,13 @@ a{
 }
 
 .photo {
+    display: block;
     width: 80px;
     max-width: 30%;
     height: auto;
     margin-bottom: 16px;
     border-radius: 8px;
-    box-shadow: 0 3px 10px rgba(255, 255, 255, 0.25);
+    box-shadow: 5px 5px 8px 2px #CFE3CF;
 }
 
 .section-1 p{
@@ -78,7 +79,7 @@ a{
     width: 100px;
 }
 /* footer */
-.footer{
+footer{
     text-align: center;
     margin-bottom: 10px;
     padding: 10px;
