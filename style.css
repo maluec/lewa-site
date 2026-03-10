@@ -46,7 +46,7 @@ h3 {
 }
 
 a {
-    color: #A88567;
+    color: #67A969;
     text-decoration: none;
     transition: color 0.2s ease, transform 0.2s ease;
 }
@@ -103,7 +103,7 @@ footer,
 }
 
 .section-1 a:hover {
-    color: #7567A8;
+    color: #A88567;
 }
 
 /* section 2 */
@@ -133,6 +133,20 @@ footer,
     margin-bottom: 1rem;
 }
 
+.section-2 ul,
+.section-2 ol {
+    margin: 0 0 1rem 1.25rem;
+    padding: 0;
+}
+
+.section-2 li {
+    margin-bottom: 0.4rem;
+}
+
+.section-2 li::marker {
+    color: #A88567;
+}
+
 .section-2 a {
     display: inline-block;
     margin-right: 1rem;
@@ -140,7 +154,7 @@ footer,
 }
 
 .section-2 a:hover {
-    color: #7567A8;
+    color: #A88567;
 }
 
 
@@ -159,7 +173,7 @@ footer a {
 }
 
 footer a:hover {
-    color: #7567A8;
+    color: #A88567;
 }
 
 /* legal sub-pages */
@@ -188,7 +202,7 @@ footer a:hover {
 }
 
 .legal-page a:hover {
-    color: #67A969;
+    color: #A88567;
 }
 
 /* media queries */
