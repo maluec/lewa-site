@@ -42,7 +42,7 @@ p {
     margin-top: 0;
 }
 
-h3 {
+h2 {
     color: #9EC89F;
 }
 
@@ -99,7 +99,7 @@ footer,
     content: "";
     position: absolute;
     inset: 0;
-    box-shadow: inset 0 0 31px 1px #101214;
+    box-shadow: inset 0 0 9px 8px #101214;
     pointer-events: none;
 }
 
@@ -120,7 +120,7 @@ footer,
 }
 
 .section-1 a:hover {
-    color: #9EC89F;
+    color: #CFE3CF;
 }
 
 /* section 2 */
@@ -161,7 +161,7 @@ footer,
 }
 
 .section-2 li::marker {
-    color: #A88567;
+    color: #CFE3CF;
 }
 
 .section-2 a {
@@ -171,7 +171,7 @@ footer,
 }
 
 .section-2 a:hover {
-    color: #9EC89F;
+    color: #CFE3CF;
 }
 
 
@@ -198,7 +198,7 @@ footer a {
 }
 
 footer a:hover {
-    color: #9EC89F;
+    color: #CFE3CF;
 }
 
 /* legal sub-pages */
@@ -227,7 +227,7 @@ footer a:hover {
 }
 
 .legal-page a:hover {
-    color: #9EC89F;
+    color: #CFE3CF;
 }
 
 /* media queries */
