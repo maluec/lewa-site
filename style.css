@@ -30,13 +30,12 @@ a{
 }
 
 .photo {
-    display: block;
     width: 140px;
     max-width: 30%;
     height: auto;
     margin-bottom: 16px;
-    border-radius: 8px;
-    box-shadow: 5px 5px 8px 2px #CFE3CF;
+    border-radius: 2px;
+    box-shadow: 5px 5px 8px -3px #CFE3CF;
 }
 
 .section-1 p{
