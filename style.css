@@ -145,6 +145,10 @@ footer,
     margin-bottom: 0.4rem;
 }
 
+.project-details {
+    margin-left: 1.25rem;
+}
+
 .section-2 p {
     font-size: 1.05rem;
     margin-bottom: 1rem;
