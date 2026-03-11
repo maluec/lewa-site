@@ -52,6 +52,20 @@ a {
     transition: color 0.2s ease, transform 0.2s ease;
 }
 
+ul,
+ol {
+    margin: 0 0 1rem 1.25rem;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 0.4rem;
+}
+
+li::marker {
+    color: #A1B891;
+}
+
 .grid-2 {
     flex: 1;
     display: grid;
@@ -158,20 +172,6 @@ footer,
 .section-2 p {
     font-size: 1.05rem;
     margin-bottom: 1rem;
-}
-
-.section-2 ul,
-.section-2 ol {
-    margin: 0 0 1rem 1.25rem;
-    padding: 0;
-}
-
-.section-2 li {
-    margin-bottom: 0.4rem;
-}
-
-.section-2 li::marker {
-    color: #A1B891;
 }
 
 .section-2 a {
