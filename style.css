@@ -43,7 +43,7 @@ p {
 }
 
 h2 {
-    color: #CFE3CF;
+    color: #889768;
 }
 
 a {
@@ -120,7 +120,7 @@ footer,
 }
 
 .section-1 a:hover {
-    color: #CFE3CF;
+    color: #9EC89F;
 }
 
 /* section 2 */
@@ -161,7 +161,7 @@ footer,
 }
 
 .section-2 li::marker {
-    color: #CFE3CF;
+    color: #889768;
 }
 
 .section-2 a {
@@ -171,7 +171,7 @@ footer,
 }
 
 .section-2 a:hover {
-    color: #CFE3CF;
+    color: #9EC89F;
 }
 
 
@@ -198,7 +198,7 @@ footer a {
 }
 
 footer a:hover {
-    color: #CFE3CF;
+    color: #9EC89F;
 }
 
 /* legal sub-pages */
@@ -227,7 +227,7 @@ footer a:hover {
 }
 
 .legal-page a:hover {
-    color: #CFE3CF;
+    color: #9EC89F;
 }
 
 /* media queries */
