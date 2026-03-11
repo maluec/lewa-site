@@ -142,7 +142,13 @@ footer,
 .section-2 h3 {
     font-size: 1.15rem;
     margin-top: 1.1rem;
-    margin-bottom: 0.4rem;
+    margin-bottom: 0;
+}
+
+.project-meta {
+    margin-bottom: 0.8rem;
+    font-size: 0.95rem;
+    font-style: italic;
 }
 
 .project-details {
